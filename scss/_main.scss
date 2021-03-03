@@ -1,0 +1,68 @@
+@import "core/mixins";
+@import "core/variables";
+
+* {
+  font-size: 14px;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #F9FAFC;
+  color: #222428;
+  }
+
+.sign_in{
+  max-width: 40%;
+  margin: 0 auto;
+
+  .sign_in--wrapp {
+  padding: 10% 15%;
+  background-color: #fff;
+
+    .a-align {
+      display: flex;
+      justify-content: right;
+    }
+
+    .button-align {
+      display: flex;
+      justify-content: right;
+    }
+  }
+
+  .section--title {
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 10%;
+    color: #002396;
+  }
+
+  .form-wrapp {
+    position: absolute;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 2px;
+    background-color: #fcfcfc;
+    border: 1px solid #f2f2f2;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+
+      &:focus {
+        background-color: #fff;
+        border-left: 2px solid #2A74DB;
+    }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #222428;
+    margin-bottom: 20px;
+    
+  }
+}

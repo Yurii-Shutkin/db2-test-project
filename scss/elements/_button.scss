@@ -1,0 +1,16 @@
+.btn {
+  width: 190px;
+  height: 40px;
+  background-color: #0AD69C;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Exo 2', sans-serif;
+  transition: .2s;
+
+    &:hover {
+      background-color: #0caa7d;
+      transition: .2s;
+      
+    }
+}

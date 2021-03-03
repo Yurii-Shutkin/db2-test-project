@@ -1,0 +1,257 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+  input:focus::-webkit-input-placeholder {
+    color: transparent; }
+  input:focus::-moz-placeholder {
+    color: transparent; }
+  input:focus:-moz-placeholder {
+    color: transparent; }
+  input:focus:-ms-input-placeholder {
+    color: transparent; }
+
+input[type='checkbox'],
+input[type='radio'] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type='search'] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+.btn {
+  width: 190px;
+  height: 40px;
+  background-color: #0AD69C;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Exo 2', sans-serif;
+  transition: .2s; }
+  .btn:hover {
+    background-color: #0caa7d;
+    transition: .2s; }
+
+.header {
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 5%; }
+  .header .logo {
+    width: 140px;
+    height: 35px; }
+  .header p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.28px; }
+  .header a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2A74DB; }
+
+* {
+  font-size: 14px;
+  font-family: "Roboto", serif; }
+
+body {
+  background-color: #F9FAFC;
+  color: #222428; }
+
+.sign_in {
+  max-width: 40%;
+  margin: 0 auto; }
+  .sign_in .sign_in--wrapp {
+    padding: 10% 15%;
+    background-color: #fff; }
+    .sign_in .sign_in--wrapp .a-align {
+      display: flex;
+      justify-content: right; }
+    .sign_in .sign_in--wrapp .button-align {
+      display: flex;
+      justify-content: right; }
+  .sign_in .section--title {
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 10%;
+    color: #002396; }
+  .sign_in .form-wrapp {
+    position: absolute; }
+  .sign_in input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 2px;
+    background-color: #fcfcfc;
+    border: 1px solid #f2f2f2;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none; }
+    .sign_in input:focus {
+      background-color: #fff;
+      border-left: 2px solid #2A74DB; }
+  .sign_in a {
+    display: block;
+    text-decoration: none;
+    color: #222428;
+    margin-bottom: 20px; }
