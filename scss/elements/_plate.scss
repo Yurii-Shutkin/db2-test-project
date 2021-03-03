@@ -1,0 +1,17 @@
+.plate {
+  max-width: 40%;
+  margin: 0 auto;
+  box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06);
+
+    .plate-wrap {
+      padding: 10% 15%;
+      background-color: #fff;
+    }
+
+      .plate-title {
+        font-family: 'Exo 2', sans-serif;
+        margin-bottom: 10%;
+        color: #002396;
+      }
+}
+

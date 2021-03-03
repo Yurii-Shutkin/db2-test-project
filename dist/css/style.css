@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Roboto:wght@300;700&display=swap");
 article,
 aside,
 details,
@@ -210,6 +211,37 @@ th {
     text-decoration: none;
     color: #2A74DB; }
 
+.plate {
+  max-width: 40%;
+  margin: 0 auto;
+  box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06); }
+  .plate .plate-wrap {
+    padding: 10% 15%;
+    background-color: #fff; }
+  .plate .plate-title {
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 10%;
+    color: #002396; }
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0px;
+  border-radius: 2px;
+  background-color: #fcfcfc;
+  border: 1px solid #f2f2f2;
+  padding-left: 15px;
+  box-sizing: border-box;
+  outline: none; }
+  input:focus {
+    background-color: #fff;
+    border-left: 2px solid #2A74DB; }
+
+a {
+  text-decoration: none;
+  color: #222428; }
+
 * {
   font-size: 14px;
   font-family: "Roboto", serif; }
@@ -218,41 +250,11 @@ body {
   background-color: #F9FAFC;
   color: #222428; }
 
-.sign_in {
-  max-width: 40%;
-  margin: 0 auto;
-  box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06); }
-  .sign_in .sign_in--wrapp {
-    padding: 10% 15%;
-    background-color: #fff; }
-    .sign_in .sign_in--wrapp .a-align {
-      display: flex;
-      justify-content: right; }
-    .sign_in .sign_in--wrapp .button-align {
-      display: flex;
-      justify-content: right; }
-  .sign_in .section--title {
-    font-family: 'Exo 2', sans-serif;
-    margin-bottom: 10%;
-    color: #002396; }
-  .sign_in .form-wrapp {
-    position: absolute; }
-  .sign_in input {
-    display: block;
-    width: 100%;
-    height: 40px;
-    margin: 20px 0px;
-    border-radius: 2px;
-    background-color: #fcfcfc;
-    border: 1px solid #f2f2f2;
-    padding-left: 15px;
-    box-sizing: border-box;
-    outline: none; }
-    .sign_in input:focus {
-      background-color: #fff;
-      border-left: 2px solid #2A74DB; }
-  .sign_in a {
-    display: block;
-    text-decoration: none;
-    color: #222428;
-    margin-bottom: 20px; }
+.a-align {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px; }
+
+.button-align {
+  display: flex;
+  justify-content: right; }
