@@ -22,6 +22,16 @@ body {
     justify-content: right;
   }
 
-  .pass_reset--inp {
+  .margin-inp {
     margin-bottom: 40px;
+  }
+
+  .inp-align {
+    display: flex;
+    justify-content: space-between;
+
+      input {
+        margin: 0;
+        width: 48%;
+      }
   }

@@ -217,7 +217,8 @@ th {
   box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06); }
   .plate .plate-wrap {
     padding: 10% 15%;
-    background-color: #fff; }
+    background-color: #fff;
+    border-radius: 10px; }
   .plate .plate-title {
     font-family: 'Exo 2', sans-serif;
     margin-bottom: 10%;
@@ -259,5 +260,12 @@ body {
   display: flex;
   justify-content: right; }
 
-.pass_reset--inp {
+.margin-inp {
   margin-bottom: 40px; }
+
+.inp-align {
+  display: flex;
+  justify-content: space-between; }
+  .inp-align input {
+    margin: 0;
+    width: 48%; }
