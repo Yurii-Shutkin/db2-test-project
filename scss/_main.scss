@@ -35,3 +35,35 @@ body {
         width: 48%;
       }
   }
+
+  .terms {
+    margin-top: 30px;
+  }
+
+  .recapcha {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  .pass-reliability {
+    display:flex;
+    justify-content: space-between;
+
+      .items{
+        width: 33.33%;
+        height: 6px;
+        margin-right: 5px;
+        background-color: #EBEFF3;
+        // background-color: #FFB966;
+        // background-color: #38ECAC;
+        border-radius: 2px;
+
+          &:first-child{
+            background-color: #FF6359;
+          }
+
+          &:last-child{
+            margin: 0;
+          }
+      }
+  }

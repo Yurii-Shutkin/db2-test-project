@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Password creating</title>
+</head>
+<body>
+  <header>
+    <div class="header header-wrapp">
+      <img class="logo" src="img/logo.svg" alt="logo">
+      <p>Already have an account? <a href="sign_in.html">Log in</a></p>
+    </div>
+  </header>
+
+  <section class="plate pass_create">
+    <div class="plate-wrap pass_create--wrapp">
+      <h1 class="plate-title dark">
+        Complete your account
+      </h1>
+      <form action="#" method="POST">
+        <input class="mb-5"type="password" name="Password" placeholder="Create a password">
+        <div class="pass-reliability mb-20">
+          <div class="items item1"></div>
+          <div class="items item2"></div>
+          <div class="items item3"></div>
+        </div>
+        <input type="password" name="Password" placeholder="Confirm password">
+        <label class="lbl-set terms">
+          <input type="checkbox" name="agreeable">
+            <span class="check-box"></span>
+            <span>I agree to the myFixer.com <a href="#">Terms of Service</a></span>
+          </label>
+        <label class="lbl-set policy">
+          <input type="checkbox" name="agreeable">
+            <span class="check-box"></span>  
+            <span class="span">I agree to the myFixer.com <a href="#">Privacy Policy</a></span>
+        </label>
+        <img src="/img/recaptcha.png" alt="recapcha" class="recapcha">
+        <div class="button-align">
+          <button class="pass_reset--btn btn" type="submit">Done!</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

@@ -8,12 +8,19 @@
       padding: 10% 15%;
       background-color: #fff;
       border-radius: 10px;
+      position: relative;
+      top: 50%;
+      margin: 4% 0;
     }
 
       .plate-title {
         font-family: 'Exo 2', sans-serif;
         margin-bottom: 10%;
         color: #002396;
+      }
+
+      .dark {
+        color: #01134E;
       }
 }
 
